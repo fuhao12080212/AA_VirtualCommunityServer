@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <form name="form" method="post"
-		action="servlet/UserVerificationServlet">
+		action="servlet/UserRegisterServlet">
 		Username：<input type="text" name="Username" value="" /><br />
 		Name：<input type="text" name="Name" value="" /><br />  
 		Phone：<input type="text" name="Phone" value="" /><br />  
